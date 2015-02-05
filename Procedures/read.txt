@@ -1,0 +1,4 @@
+this is daewook's
+first tiral of
+reading txt files
+to python

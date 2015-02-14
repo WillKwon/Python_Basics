@@ -4,7 +4,7 @@ Suppose we have a text of words and want to count which words appear how many ti
 
 text = 'the cat sat on the mat'
 words = text.split()
-print words
+print (words)
 
 record = {}
 for word in words:
@@ -13,7 +13,7 @@ for word in words:
     else:
         record[word] = 1
         
-print record
+print (record)
         
 '''
 Note that dictionaries are unordered, and you cannot predict how things will be Ordered
@@ -21,8 +21,8 @@ Note that dictionaries are unordered, and you cannot predict how things will be 
 
 # To print out record in a nicer way
 items = list(record.items())
-print items
-print items.sort()
+print (items)
+print (items.sort())
 
 for (key, value) in items:
     print (key, value)
